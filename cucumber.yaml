@@ -1,0 +1,6 @@
+---
+default: -p terminal_pretty -p report_html
+terminal_progress: --format progress
+terminal_pretty: --format pretty
+report_html: --format html --out=features/reports/report.html
+report_json: --format json --out=features/reports/report.html
